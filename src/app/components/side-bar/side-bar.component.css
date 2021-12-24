@@ -79,10 +79,12 @@ li {
   padding: 10px;
   padding-left: 35px;
   cursor: pointer;
+  border-left: 3px solid transparent;
+
 }
 li:hover {
   border-left: 3px solid #39cdcc;
-  transition: all 0.9s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 li svg {
   width: 25px;

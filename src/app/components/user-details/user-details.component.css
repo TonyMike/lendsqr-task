@@ -111,6 +111,7 @@
 .profile nav ul li {
   text-align: center;
   color: black;
+  border-bottom: 2px solid transparent;
   padding-bottom: 4px;
 }
 
