@@ -17,6 +17,16 @@
   padding-bottom: 120px;
   z-index: 1;
 }
+.side-bar::-webkit-scrollbar{
+  width: 6px;
+}
+.side-bar::-webkit-scrollbar-track{
+  border-radius: 10px;
+}
+.side-bar::-webkit-scrollbar-thumb{
+  background-color: #bbbbbb;
+  border-radius: 10px;
+}
 .btn {
   background-color: white;
   border: none;
