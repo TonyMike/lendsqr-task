@@ -1,0 +1,73 @@
+[{
+    "organization": "lendsqr",
+    "username": "adedeji",
+    "email": "adedeji@lendsqr.com",
+    "tel": "08078903721",
+    "dateJoin": "May 15,2020 10:00AM",
+    "status": "inactive"
+  },
+  {
+    "organization": "irorun",
+    "username": "debby ogana",
+    "email": "debby 2@irorun.com",
+    "tel": "08160780928",
+    "dateJoin": "April 20, 2020 10:00AM",
+    "status": "pending"
+  },
+  {
+    "organization": "lendstar",
+    "username": "grace effiom",
+    "email": "grace@lendstar.com",
+    "tel": "07060780922",
+    "dateJoin": "April 30, 2020 10:00AM",
+    "status": "blacklisted"
+  },
+  {
+    "organization": "irorun",
+    "username": "tony allen",
+    "email": "tonero@irorun.com",
+    "tel": "08012838443",
+    "dateJoin": "April 10, 2020 10:00AM",
+    "status": "pending"
+  },
+  {
+    "organization": "lendsqr",
+    "username": "tosin dokunmu",
+    "email": "tosin@lendsqr.com",
+    "tel": "07003309226",
+    "dateJoin": "April 30, 2020 10:00AM",
+    "status": "active"
+  },
+  {
+    "organization": "lendsqr",
+    "username": "akinmade seun",
+    "email": "seun@lendsqr.com",
+    "tel": "08129374820",
+    "dateJoin": "June 20, 2020 11:AM",
+    "status": "active"
+  },
+  {
+    "organization": "lendstar",
+    "username": "victor hassan",
+    "email": "vikky@lendstar.com",
+    "tel": "09019230345",
+    "dateJoin": "Dec 3, 2020 4:00PM",
+    "status": "blacklisted"
+  },
+  {
+    "organization": "irorun",
+    "username": "Michael chukwu",
+    "email": "chuks@irorun.com",
+    "tel": "08120384345",
+    "dateJoin": "Feb 20, 2020 12:OOPM",
+    "status": "inactive"
+  },
+  {
+    "organization": "lendsqr",
+    "username": "musa sodiq",
+    "email": "sodiq@lendsqr.com",
+    "tel": "07060303672",
+    "dateJoin": "Oct 8, 2020 9:00AM",
+    "status": "inactive"
+  }
+]

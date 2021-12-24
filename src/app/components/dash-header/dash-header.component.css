@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  height:90px;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  background-color: white;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+.logo {
+  width: 300px;
+}
+.logo img:nth-child(1) {
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+.search-box {
+  width: 370px;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  /* height: 40px; */
+  margin-right: 30px;
+}
+.search-box input {
+  padding: 5px 18px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px 0px 0px 8px;
+}
+.search-box input::placeholder {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  color: #545f7d;
+}
+button {
+  background-color: #39cdcc;
+  border: none;
+  outline: none;
+  border-radius: 0px 8px 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.profile {
+  position: relative;
+  right: 0px;
+  display: flex;
+  width: 550px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.profile-pix {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  /* background-color: red; */
+}
+.profile-pix img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+.name {
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #213f7d;
+}
+.bi-caret-down-fill {
+  margin-left: 10px;
+  color: #213f7d;
+  margin-bottom: 4px;
+}
+a {
+  margin-right: 20px;
+  color: #213f7d;
+  font-family: "Roboto", sans-serif;
+}
+.bell {
+  margin: 0px 25px;
+  color: #213f7d;
+}

@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #213f7d;
+  padding: 15px 0px;
+}
+.card-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+}
+.card {
+  border: none;
+  padding: 15px 20px;
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+.dp-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pink {
+  background-color: #fce8ff;
+}
+.card .dp-icon:nth-child(2) {
+  background-color: yellow;
+}
+.purple {
+  background-color: #eee8ff;
+}
+.orange {
+  background-color: #feefec;
+}
+.red {
+  background-color: #ffebf0;
+}
+.card-text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #545f7d;
+  margin: 11px 0px;
+  margin-bottom: 13px;
+}
+.total {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #213f7d;
+  padding-bottom: 10px;
+}
+.filter-opt {
+  margin: 20px 0px;
+  outline: none;
+  border: 1px solid #39cdcc;
+  color: #39cdcc;
+  padding: 8px 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  background-color: white;
+}
+.filter-opt:hover {
+  background-color: #d4fdfd;
+}
+.user-table {
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  padding: 18px 30px;
+  position: relative;
+}
+table {
+  width: 100%;
+}
+th {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #545f7d;
+}
+tbody td {
+  font-size: 13px;
+  line-height: 16px;
+  color: #545f7d;
+  padding: 20px 0px;
+}
+tbody tr {
+  border-bottom: 1px solid #b6b6b6;
+  cursor: pointer;
+}
+
+.name,
+.org,
+.status {
+  text-transform: capitalize;
+}
+/* tbody tr:hover {
+  background-color: #e7e7e7;
+} */
+.status {
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  padding: 10px 0px !important;
+  align-items: center;
+  height: 100;
+  margin-top: 12px;
+}
+.move {
+  text-align: center;
+}
+.inactive {
+  background-color: #f5f5f7;
+  color: #545f7d !important;
+}
+.active {
+  background-color: #f3fcf6;
+  color: #39cd62;
+}
+.pending {
+  background-color: #fdf7e5;
+  color: #e9b200 !important;
+}
+.blacklisted {
+  background-color: #fce6eb;
+  color: #e4033b !important;
+}
+th span {
+  margin: 0px 5px;
+}
+.last-row {
+  border: none !important;
+}
+
+/* filter form */
+.filter-form {
+  background: #ffffff;
+  border: 1px solid rgba(84, 95, 125, 0.14);
+  box-sizing: border-box;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  width: 270px;
+  padding: 30px 20px;
+  position: absolute;
+  top: 45px;
+  background-color: white;
+  /* left: px; */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Work sans";
+  background-color: white;
+}
+.form label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #545f7d;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.form input,
+.form select {
+  border: 1px solid #d3d9e5;
+  border-radius: 8px;
+  color: #878fa4;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  padding: 8px 15px;
+  margin-bottom: 20px;
+}
+.reset {
+  background-color: white;
+  border: 1px solid #545f7d;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #545f7d;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+.filter-btn {
+  background: #39cdcc;
+  border: 1px solid #39cdcc;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+
+.form input::placeholder {
+  font-size: 13px;
+  line-height: 16px;
+}
+#date,#email{
+  text-transform: lowercase;
+}
