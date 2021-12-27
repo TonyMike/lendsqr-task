@@ -20,11 +20,9 @@
 }
 .header {
   grid-area: header;
-  background-color: red;
 }
 .side {
   grid-area: side;
-  background-color: blue;
 }
 .main {
   /* background-color: yellow; */

@@ -5,16 +5,20 @@
   font-family: "Work Sans";
 }
 .grid {
+  min-height: 100vh;
+  width: 100%;
   max-width: 100vw;
+  overflow-x: hidden;
   display: grid;
-  grid-template-columns: 22% 1fr 1fr;
-
+  grid-template-columns: 22% 1fr;
+  grid-template-rows: 90px auto;
   grid-template-areas:
-    "header header header"
-    "side main main"
-    "side main main";
+    "header header"
+    "side main"
+    "side main";
   background-color: white;
 }
+
 .header {
   grid-area: header;
 }
