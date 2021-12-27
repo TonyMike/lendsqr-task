@@ -52,7 +52,6 @@
   display: flex;
   align-items: center;
 }
-
 .dp {
   width: 100px;
   height: 100px;
@@ -87,7 +86,6 @@
   line-height: 16px;
   color: #545f7d;
 }
-
 .user-tier {
   color: #545f7d;
 }
