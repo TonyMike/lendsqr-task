@@ -20,9 +20,26 @@
 }
 .header {
   grid-area: header;
+  position: fixed;
+  width: 100vw;
+  z-index:8
 }
 .side {
   grid-area: side;
+  position: fixed;
+  height: 100vh;
+  padding-top: 110px;
+  overflow-y: scroll;
+}
+.side-bar::-webkit-scrollbar {
+  width: 6px;
+}
+.side-bar::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.side-bar::-webkit-scrollbar-thumb {
+  background-color: #bbbbbb;
+  border-radius: 10px;
 }
 .main {
   /* background-color: yellow; */

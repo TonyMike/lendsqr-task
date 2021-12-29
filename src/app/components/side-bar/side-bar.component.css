@@ -5,7 +5,6 @@
   font-family: "Work Sans", sans-serif;
 }
 .side-bar {
-  background-color: red;
   background: #ffffff;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
 }
@@ -95,6 +94,7 @@ li a {
   padding-left: 40px;
   /* background-color: red; */
   padding-top: 20px;
+  margin-bottom: 20px;
 }
 .log-out span svg {
   margin-right: 15px;
