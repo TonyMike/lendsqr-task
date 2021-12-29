@@ -16,7 +16,7 @@
 }
 .side-bar::-webkit-scrollbar-thumb {
   background-color: #bbbbbb;
-  border-radius: 10px;
+  border-radius:30px;
 }
 .btn {
   background-color: white;

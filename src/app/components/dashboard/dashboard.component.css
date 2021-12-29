@@ -42,7 +42,6 @@
   border-radius: 10px;
 }
 .main {
-  /* background-color: yellow; */
   grid-area: main;
   padding: 20px 20px;
   background-color: #fbfbfb;
