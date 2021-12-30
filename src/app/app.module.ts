@@ -13,6 +13,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { ViewUserComponent } from './components/view-user/view-user.component'
 import { ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { UserDashComponent } from './components/user-dash/user-dash.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     UsersComponent,
     ViewUserComponent,
     DashboardComponent,
+    UserDashComponent,
   ],
   imports: [
     BrowserModule,

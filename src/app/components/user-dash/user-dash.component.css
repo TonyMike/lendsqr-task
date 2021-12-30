@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  .grid {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: 22% 1fr;
+    grid-template-rows: 90px auto;
+  
+    grid-template-areas:
+      "header header"
+      "side main"
+      "side main";
+    background-color: white;
+  }
+  .header {
+    grid-area: header;
+    position: fixed;
+    width: 100vw;
+    z-index:8
+  }
+  .side {
+    grid-area: side;
+    position: fixed;
+    height: 100vh;
+    padding-top: 110px;
+    overflow-y: scroll;
+    width: 22%;
+  }
+  .side::-webkit-scrollbar {
+    width: 6px;
+  }
+  .side::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  .side::-webkit-scrollbar-thumb {
+    background-color: #bbbbbb;
+    border-radius: 10px;
+  }
+  .main {
+    grid-area: main;
+    padding: 20px 20px;
+    background-color: #fbfbfb;
+  }
+  
